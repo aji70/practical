@@ -1,50 +1,56 @@
 main{
-position: relative;
-display: flex;
-}
-.im{
-    position: relative;
-    margin-top: 20px;
-    margin-left: 300px;
-    background-color: black;
-    display: inline-block;
-    border: 10px solid black;
-    border-radius: 30px;
+    display: flex;
+    
 }
 
-.in{
-    position: relative;
-    margin-top:  -550px;
-    margin-left: 380px;
-    background-color: black;
-    display: inline-block;
-    border: 10px solid black;
-    border-radius: 30px;
-}
-
-.mid {
+.img{
     position: relative;
     display: flex;
-    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.pict {
+
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.pic{
+
+    position: relative;
+    margin-top: 20px;
+    margin-left: -200px;
+    display: inline-block;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+.mid{
+    margin-top: 20px;
     margin-left: 60px;
     width: 400px;
-   
+    
 }
 .form{
+    position: relative;
     border: 1px solid #dbdbdb;
-    margin-top: 30px;
-    height: 400px
+    height: 400px;
 }
 
-form p{
+.form p{
     position: relative;
     text-align: center;
-    margin-top: 25px;
-    font-size: 45px;
+    font-size: 40px;
     letter-spacing: -8px;
+    margin-top: -5px;
+
 }
 
-input[type=text]{
+input[type = text] {
     position: relative;
     background-color: #fafafa;
     border: 1px solid #dbdbdb;
@@ -53,96 +59,92 @@ input[type=text]{
     margin-left: 10%;
     height: 40px;
 }
-
-input[type=password]{
+input[type = password] {
     position: relative;
-    background-color: #fafafa;
-    border: 1px solid #dbdbdb;
-    border-radius: 4px;
-    width: 80%;
     margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    width: 80%;
     margin-left: 10%;
     height: 40px;
 }
 
-input[type=submit]{
+input[type = submit] {
     position: relative;
-    background-color:#4d96f6;
+    margin-top: 10px;
+    background-color: #4d96f6;
     border: 1px solid #4d96f6;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
     color: white;
     font-family: arial;
     font-weight: bolder;
-    border-radius: 10px;
-    width: 80%;
-    margin-top: 10px;
-    margin-left: 10%;
-    height: 40px;
+
 }
+
 .or{
     text-align: center;
-    font-family: arial;
     font-size: 15px;
+    font-family: arial;
     color: #bab9b9;
 }
 
-.fb{
-    position: relative;
+.log{
     display: flex;
 }
 
-.fb img{
+.log img{
     position: relative;
     margin-left: 100px;
+    margin-top: -5px;
     height: 25px;
     width: 25px;
 }
 
-.fbp{
-    position: relative;
-    margin-top: -21px;
-    margin-left: 140px;
+.log a{
+    text-decoration: none;
+    color: #385185;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .forg{
-    position: relative;
-    margin-top: 30px;
-    margin-left: -130px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.fb a{
+.forg a{
     text-decoration: none;
+    font-weight: bolder;
     color: #385185;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
+}
 .signup{
     position: relative;
     margin-top: 10px;
     text-align: center;
     border: 1px solid #dbdbdb;
-}
-
-.signup p{
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-
-.signup span a{
+    }
+.signup a{
     text-decoration: none;
-    font-weight: 3em;
-    color:#4d96f6 ;
+    font-weight: bolder;
+    color: #4d96f6;
 }
 
-.footer p{
+.get {
     text-align: center;
 }
 
-.gp{
-    margin-left: 20%;
+.gi{
+    margin-left: 20px;
     height: 45px;
 }
 
-.gi{
+.gp{
     margin-left: 5px;
     height: 45px;
 }
